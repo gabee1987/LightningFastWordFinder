@@ -12,6 +12,8 @@ namespace LightningFastWordFinder
         {
             string longestString = "";
 
+            // Write your code here!
+
             return longestString;
         }
     }
