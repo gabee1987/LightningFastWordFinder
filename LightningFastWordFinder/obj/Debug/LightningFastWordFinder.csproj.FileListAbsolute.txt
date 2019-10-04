@@ -1,0 +1,7 @@
+E:\WPF\LightningFastWordFinder\LightningFastWordFinder\bin\Debug\LightningFastWordFinder.exe.config
+E:\WPF\LightningFastWordFinder\LightningFastWordFinder\bin\Debug\LightningFastWordFinder.exe
+E:\WPF\LightningFastWordFinder\LightningFastWordFinder\bin\Debug\LightningFastWordFinder.pdb
+E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.csprojAssemblyReference.cache
+E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.csproj.CoreCompileInputs.cache
+E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.exe
+E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.pdb
