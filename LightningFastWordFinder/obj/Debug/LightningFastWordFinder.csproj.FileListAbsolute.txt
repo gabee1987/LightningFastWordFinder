@@ -5,3 +5,10 @@ E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWo
 E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.csproj.CoreCompileInputs.cache
 E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.exe
 E:\WPF\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.pdb
+E:\DOJO\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.csprojAssemblyReference.cache
+E:\DOJO\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.csproj.CoreCompileInputs.cache
+E:\DOJO\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.exe
+E:\DOJO\LightningFastWordFinder\LightningFastWordFinder\obj\Debug\LightningFastWordFinder.pdb
+E:\DOJO\LightningFastWordFinder\LightningFastWordFinder\bin\Debug\LightningFastWordFinder.exe.config
+E:\DOJO\LightningFastWordFinder\LightningFastWordFinder\bin\Debug\LightningFastWordFinder.exe
+E:\DOJO\LightningFastWordFinder\LightningFastWordFinder\bin\Debug\LightningFastWordFinder.pdb
