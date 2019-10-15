@@ -1,11 +1,12 @@
 ﻿using System;
 using System.IO;
+using System.Threading;
 
 namespace LightningFastWordFinder
 {
     class Program
     {
-        static string name = ""; // <- Fill in your name!
+        static string name = "Fodor Attila #3"; // <- Fill in your name!
         static int numOfRuns = 1000;
         static string longestWord = "";
 
