@@ -68,6 +68,10 @@ namespace LightningFastWordFinder
 
         //The longest word: Constantinopolitan
         //Fodor Attila #3 Runs: 1000 Score: 4.3452075
+        //The longest word: Constantinopolitan
+        //Fodor Attila #3 Runs: 10000 Score: 4.28305246
+        //The longest word: Constantinopolitan
+        //Fodor Attila #3 Runs: 100000 Score: 4.145145201
         //---------------------------------------------
         //public int m_StartIndex;
         //public int m_Length;
@@ -299,6 +303,8 @@ namespace LightningFastWordFinder
 
         //The longest word: Constantinopolitan
         //Garai Márton #1 Runs: 1000 Score: 7.3774163
+        //The longest word: Constantinopolitan
+        //Garai Márton #1 Runs: 10000 Score: 7.35684334
         //---------------------------------------------
         //public string GetLongestWord( string text )
         //{
@@ -387,6 +393,10 @@ namespace LightningFastWordFinder
 
         //The longest word: Constantinopolitan
         //Balogh Máté #2 Runs: 1000 Score: 4.7560555
+        //The longest word: Constantinopolitan
+        //Balogh Máté #2 Runs: 10000 Score: 4.68337263
+        //The longest word: Constantinopolitan
+        //Balogh Máté #2 Runs: 100000 Score: 4.44221432
         //---------------------------------------------
         //private static char[] forbiddenWords = new char[5] { '\n', '\r', '-', '/', '.' };
         //public string GetLongestWord( string text )
@@ -494,6 +504,75 @@ namespace LightningFastWordFinder
 
         //    return longestString;
         //}
+
+
+        //The longest word: Constantinopolitan
+        //Für Attila #1 Runs: 1000 Score: 4.0747247
+        //The longest word: Constantinopolitan
+        //Für Attila #1 Runs: 10000 Score: 4.04818892
+        //---------------------------------------------
+        //public unsafe string GetLongestWord( string text )
+        //{
+        //    int LongestLength = 0;
+        //    string LongestString = "";
+        //    char* LongestStart = null;
+
+        //    int CurrentLength = 0;
+
+        //    fixed ( char* startPtr = text )
+        //    {
+        //        char* endPtr = startPtr + text.Length;
+        //        while( endPtr != startPtr )
+        //        {
+        //            switch( *(--endPtr) )
+        //            {
+        //                case ' ':
+        //                case '\n':
+        //                case '/':
+        //                case '[':
+        //                case ']':
+        //                case ',':
+        //                case '.':
+        //                case ':':
+        //                case '\'':
+        //                case '"':
+        //                case '-':
+
+        //                    if( CurrentLength > LongestLength )
+        //                    {
+        //                        LongestStart = endPtr;
+        //                        LongestLength = CurrentLength;
+        //                    }
+
+        //                    CurrentLength = 0;
+        //                    break;
+        //                default:
+        //                    CurrentLength++;
+        //                    break;
+        //            }
+        //            ;
+        //        }
+
+        //        if( CurrentLength > LongestLength )
+        //        {
+        //            while( CurrentLength-- > 0 )
+        //            {
+        //                LongestString += *(endPtr++ + 1);
+        //            }
+        //        }
+        //        else
+        //        {
+        //            LongestStart++;
+        //            while( LongestLength-- > 0 )
+        //            {
+        //                LongestString += *(LongestStart++);
+        //            }
+        //        }
+        //    }
+
+        //    return LongestString;
+        //}
+
 
     }
 }
